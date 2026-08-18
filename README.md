@@ -9,15 +9,16 @@ This project provides a comprehensive analysis of employee attrition patterns to
 - Assess how **career stagnation** (e.g., time since last promotion) influences turnover decisions.
 - Provide data-driven recommendations to improve **employee retention** and organizational stability.
 
-## Methodology
+## Methodology & Data Processing
 The analysis was performed using the [HR Analytics Prediction dataset](https://www.kaggle.com/datasets/rishikeshkonapure/hr-analytics-prediction), consisting of employee records.
 
+- **Data Understanding & Preprocessing:** You can view the complete data exploration and preprocessing workflow in the [Google Colab Notebook](https://colab.research.google.com/drive/1P7eB3GFlfuRKfaj_9E_5Fi5aUqI0Envk).
 - **Data Cleaning:** Handled missing values, standardized categorical variables, and performed feature engineering (tenure ratios, age grouping).
 - **Tools & Technologies:**
   - **SQL (BigQuery):** For efficient data querying and extraction.
   - **Python (Pandas):** For data transformation, statistical manipulation, and modeling.
   - **Excel:** For initial data validation and summary reporting.
-  - **Visualization:** Lovable AI for live-interactive dashboarding.
+  - **Visualization:** Lovable AI for interactive dashboarding.
 
 ## Findings & Recommendations
 Key insights from the analysis indicate that employees working frequent overtime and those with limited growth opportunities are at the highest risk of attrition.
